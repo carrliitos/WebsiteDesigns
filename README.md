@@ -1,3 +1,3 @@
 # WebsiteDesigns
 
-A repository for all my web designs
+Test designs for a website
