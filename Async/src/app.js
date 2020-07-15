@@ -13,4 +13,4 @@ setTimeout(() => {
 	console.log("Inside timeout after 5 seconds");
 }, 5000);
 
-console.log("End");
+console.log("End");	
