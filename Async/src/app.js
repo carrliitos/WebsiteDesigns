@@ -24,11 +24,20 @@ function getUserVideos(email, callback) {
 	}, 2000);
 }
 
+function videoDetails(video, callback) {
+	setTimeout(() => {
+		callback("title1", "title2", "title3");
+	});
+}
+
 const user = loginUser("salazar@nicemail.com", 123456, (user) => {
 	console.log(user);
 	getUserVideos(user.userEmail, (videos) => {
 		console.log(videos);
-	})
+		videoDetails(videos, (titles) => {
+			console.log(titles);
+		})
+	});
 });
 
 // console.log(user);
