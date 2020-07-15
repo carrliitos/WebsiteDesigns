@@ -50,7 +50,7 @@ function loginUser(email, password) {
 			console.log("Now we have the data");
 			resolve({userEmail, email});
 		}, 3000);
-	});
+	});	
 };
 
 function getUserVideos(email) {
